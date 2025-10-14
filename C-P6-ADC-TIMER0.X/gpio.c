@@ -25,13 +25,13 @@ void PortB_Initialize(void)
     LATB = 0x00;
     
     /* RB7 as analog pin; RB6:RB0 as digital I/O */
-    ANSELB = 0x80;
+    ANSELB = 0x00;
     
     /* Enable pull-up on RB4 only */
-    WPUB = 0x10;
+    WPUB = 0x00;
         
     /* RB7 as input; RB4 as input; RB6:RB5,RB3:RB0 as outputs */
-    TRISB = 0x90;
+    TRISB = 0x00;
 }
 
 /* PortC initialization */
