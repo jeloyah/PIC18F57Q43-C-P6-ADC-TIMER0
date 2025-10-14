@@ -21,7 +21,7 @@ void ADC_Initialize(void)
     ADCLK = 0x13;
 	
     /* ADC Input channel is RB7/ANB7 */
-    ADPCHbits.PCH = 0b000001;
+    ADPCHbits.PCH = 0b000000;
 }
 
 
